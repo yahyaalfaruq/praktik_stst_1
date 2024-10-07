@@ -1,5 +1,5 @@
 function validatePhoneNumber(phone) {
-  if (typeof phone !== "number" && phone.length >= 10 && 13) {
+  if (typeof phone !== "number" && phone.length == 10 && 13) {
     console.log("Nomor HP Valid");
     return true;
   } else {
